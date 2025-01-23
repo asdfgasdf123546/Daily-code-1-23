@@ -1,0 +1,9 @@
+def ChangeChecker(Number):
+    if Number%5==0:
+        print("No pennies needed")
+    #else print pennies needed
+    else:
+        print("you'll need pennies for this!")
+    
+    
+ChangeChecker(5)
