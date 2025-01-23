@@ -1,0 +1,7 @@
+def Prime(Number):
+    prime = True
+    for i in range(2, Number):
+            if Number%i ==0:
+                prime = False
+    return prime
+print("is the number prime?", Prime(10))
